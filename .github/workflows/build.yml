@@ -4,7 +4,7 @@ on: [push, pull_request]
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: Self-hosted
     steps:
     - name: Checkout
       uses: actions/checkout@v2
